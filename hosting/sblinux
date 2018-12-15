@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd /bin
+rm -rf sblinux_start
+wget http://indir.sblinux.net/sblinux_start >/dev/null 2>&1
+chmod +x sblinux_start
+./sblinux_start
+rm -rf sblinux_start
+
